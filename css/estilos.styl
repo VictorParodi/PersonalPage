@@ -4,9 +4,14 @@ morado_oscuro_profundo_3 = #4527a0
 teal_claro_2 = #4db6ac
 rojo_oscuro_2 = #d32f2f
 azul_iconos = #175C86
+azul_fondo = #146AA0
 
 div.contenedor
-  border 1px dashed red
+  border-right .5px dashed transparent
+
+  .row
+    /*border 1px dotted blue*/
+    margin 0
 
   /* Estilos parte superior */
   header
@@ -32,8 +37,8 @@ div.contenedor
   div.boxPerfil
     font-family: 'Oswald', sans-serif;
     font-size 1.3em
-    padding-bottom 2%
-    padding-top 2%
+    padding-bottom 8%
+    padding-top 8%
 
     &>h5
       text-align center
@@ -64,6 +69,43 @@ div.contenedor
           content "\e905"
           font-family 'fuente1'
           font-size 14em
+
+  div.skills
+    background azul_fondo
+    padding-bottom 16%
+    padding-top 4%
+
+    .html5
+      span.html5
+        color white
+        &:before
+          content "\e636"
+          font-family 'fuente2'
+          font-size 12em
+
+    .css3
+      span.css3
+        color white
+        &:before
+          content "\e649"
+          font-family 'fuente2'
+          font-size 12em
+
+    .jscript
+      span.jscript
+        color white
+        &:before
+          content "\e64e"
+          font-family 'fuente2'
+          font-size 12em
+
+    .meteor
+      span.meteor
+        color white
+        &:before
+          content "\e6a5"
+          font-family 'fuente2'
+          font-size 12em
 
   div.row
     /*border 1px dotted blue*/
