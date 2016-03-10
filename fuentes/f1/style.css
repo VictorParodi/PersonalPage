@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?aoqo9e');
+    src:    url('fonts/icomoon.eot?aoqo9e#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?aoqo9e') format('truetype'),
+        url('fonts/icomoon.woff?aoqo9e') format('woff'),
+        url('fonts/icomoon.svg?aoqo9e#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+    content: "\e900";
+}
+.icon-window:before {
+    content: "\e901";
+}
+.icon-cogs:before {
+    content: "\e902";
+}
+.icon-graduate:before {
+    content: "\e903";
+}
+.icon-lamp:before {
+    content: "\e904";
+}
+.icon-lamp2:before {
+    content: "\e905";
+}
+.icon-envelope2:before {
+    content: "\e605";
+}
+.icon-github:before {
+    content: "\f09b";
+}
+.icon-html5:before {
+    content: "\f13b";
+}
+.icon-css3:before {
+    content: "\f13c";
+}
+.icon-file-image-o:before {
+    content: "\f1c5";
+}
+.icon-file-photo-o:before {
+    content: "\f1c5";
+}
+.icon-file-picture-o:before {
+    content: "\f1c5";
+}
+.icon-git-square:before {
+    content: "\f1d2";
+}
+.icon-room:before {
+    content: "\e906";
+}
+

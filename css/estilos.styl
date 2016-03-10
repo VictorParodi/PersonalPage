@@ -1,0 +1,96 @@
+morado_oscuro_4 = #4a148c
+morado_profundo = #673ab7
+morado_oscuro_profundo_3 = #4527a0
+teal_claro_2 = #4db6ac
+rojo_oscuro_2 = #d32f2f
+azul_iconos = #175C86
+
+div.contenedor
+  border 1px dashed red
+
+  /* Estilos parte superior */
+  header
+    background rojo_oscuro_2
+    border 1px solid green
+    font-family: 'Boogaloo', cursive;
+
+    &>div
+      /*border 1px dotted blue*/
+      color white
+
+    div.avatar
+      text-align center
+
+      img
+        border-radius 50%
+
+
+  /* Estilos sección de perfíl */
+  div.boxPerfil
+    font-family: 'Oswald', sans-serif;
+    font-size 1.2em
+    padding-bottom 3%
+    padding-top 3%
+
+    &>h5
+      text-align center
+    
+    #test1,#test2,#test3
+        color rgba(0,0,0, .7);
+    
+    div#test1
+      span.iconIngeniero
+        color azul_iconos
+        &:before
+          content "\e902"
+          font-family 'fuente1'
+          font-size 12em
+
+    div#test2
+      span.iconDev
+        color azul_iconos
+        &:before
+          content "\e901"
+          font-family 'fuente1'
+          font-size 12em
+
+    div#test3
+      span.iconEmprendedor
+        color azul_iconos
+        &:before
+          content "\e905"
+          font-family 'fuente1'
+          font-size 12em
+
+    div#test4
+      span.iconAcademico
+        color azul_iconos
+        &:before
+          content "\e903"
+          font-family 'fuente1'
+          font-size 12em
+
+  div.row
+    /*border 1px dotted blue*/
+
+    div.col
+      /*border 1px solid violet*/
+      text-align center
+
+@media (max-width: 600px){
+  header{
+    padding-top 2%
+  }
+
+  header>div{
+    text-align:center;
+  }
+}
+
+@media (min-width: 993px){
+  header{
+    padding-bottom:16%;
+    padding-top:16%;
+  }
+
+}
